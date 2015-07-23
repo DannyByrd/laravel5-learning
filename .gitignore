@@ -1,5 +1,5 @@
+!/vendor/illuminate/*
 /vendor
 /node_modules
-!/vendor/illuminate/*
 Homestead.yaml
 .env
