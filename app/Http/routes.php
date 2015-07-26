@@ -28,3 +28,17 @@ Route::get('contact','PagesController@contact');
 
 Route::resource('articles','ArticlesController');
 
+Route::controllers([
+	'auth'=>'Auth\AuthController',
+	'password' => 'Auth\PasswordController',
+	]);
+
+Route::get('foo',['middleware'=>'manager',function(){
+
+	return 'This page may only by viewed by Managers';
+}]);
+
+
+
+
+

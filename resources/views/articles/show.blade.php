@@ -2,9 +2,9 @@
 
 @section('content')
 
-	<h1>{{$articles->title}}</h1>
+	<h1>{{$article->title}}</h1>
 
 	<article>
-		{{$articles->body}}
+		{{$article->body}}
 	</article>
 @stop
